@@ -32,5 +32,11 @@
     <ClInclude Include="Store.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="LinearList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SeqList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

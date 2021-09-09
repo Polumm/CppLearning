@@ -1,3 +1,4 @@
+#include<stdlib.h>
 //未完待续，复习完重载后再来对[] + = const进行重载
 template <class T>
 class Array
@@ -14,7 +15,7 @@ private:
 template <class T>
 Array<T>::Array(int sz)
 {
-	assert(sz >= 0);//Evaluates an expression and, when the result is false, prints a diagnostic message and aborts the program.
+	//assert(sz >= 0);//Evaluates an expression and, when the result is false, prints a diagnostic message and aborts the program.
 	size = sz;
 	list = new T[size];//动态创建数组
 }

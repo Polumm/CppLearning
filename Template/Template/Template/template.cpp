@@ -1,6 +1,7 @@
 #include "abs.h"
 #include "OutPutArray.h"
 #include "store.h"
+#include "SeqList.h"
 int main() {
 	cout << "//==========================" << endl;
 	int a = -9;
@@ -24,4 +25,8 @@ int main() {
 	s3.putElem(g);
 	cout << "The Student id is " << s3.getElem().id << endl;
 	cout << "The Student gpa is " << s3.getElem().gpa << endl;
+	cout << "//==========================" << endl;
+	SeqList<float> sq1;
+	float f[] = { 1.2,2.3,5.4,1,10,9 };
+	sq1.getValue(f, 6);
 }
