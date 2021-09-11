@@ -15,11 +15,14 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="template.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="Array.h">
       <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedList.h">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="template.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -35,7 +38,10 @@
     <ClInclude Include="LinearList.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="SeqList.h">
+    <ClInclude Include="LinkedStack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

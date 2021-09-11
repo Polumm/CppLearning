@@ -1,7 +1,11 @@
+#include<assert.h>
 #include "abs.h"
 #include "OutPutArray.h"
 #include "store.h"
 #include "SeqList.h"
+//#include "LinkedList.h" 后续还会引用，小心重复引用了
+#include "LinkedStack.h"
+
 int main() {
 	cout << "//==========================" << endl;
 	int a = -9;
@@ -16,6 +20,8 @@ int main() {
 	OutPutArray(a2, sz2);
 	OutPutArray(a3, sz3);
 	cout << "//==========================" << endl;
+	/*
+	cout << "//==========================" << endl;
 	store<int> s1, s2;//定义两个store<int>型对象，item为int型
 	s1.putElem(3);
 	s2.putElem(-7);
@@ -29,4 +35,12 @@ int main() {
 	SeqList<float> sq1;
 	float f[] = { 1.2,2.3,5.4,1,10,9 };
 	sq1.getValue(f, 6);
+	*/
+	LinkedStack<int> stack1;
+	stack1.Push(1);
+	stack1.Push(2);
+	stack1.Push(3);
+	int x;
+	stack1.getTop(x);
+	cout << x;
 }

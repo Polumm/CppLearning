@@ -139,13 +139,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="LinkedList.h" />
     <ClCompile Include="Array.h" />
     <ClCompile Include="template.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="abs.h" />
+    <ClInclude Include="LinkedStack.h" />
     <ClInclude Include="OutPutArray.h" />
-    <ClInclude Include="SeqList.h" />
+    <ClInclude Include="Stack.h" />
     <ClInclude Include="Store.h" />
     <ClInclude Include="LinearList.h" />
   </ItemGroup>
